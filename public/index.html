@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="my">
+  <head>
+    <meta charset="utf-8" />
+    <title>Myanmar Kitchen — ဟင်းချက်နည်း မုန့် လဘက်ရည် သင်ပေးမှု</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script type="module" src="/firebase.js"></script>
+    <script type="module" src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <img src="images/icons/icon-192.png" alt="logo" />
+        <div>
+          <h1>Myanmar Kitchen</h1>
+          <p>မြန်မာအစားအစာ သင်ကြားမှု App</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="search">
+        <input
+          id="searchBox"
+          type="text"
+          placeholder="ဟင်းနည်း၊ မုန့်နည်း၊ လဘက်ရည်နည်း ရှာရန်..."
+        />
+        <button id="btnSearch"><i class="ri-search-line"></i></button>
+      </section>
+
+      <section id="recipeGrid" class="grid"></section>
+    </main>
+
+    <footer>
+      <p>© 2025 Myanmar Kitchen | Community Cooking Hub</p>
+    </footer>
+  </body>
+</html>
