@@ -1,44 +1,155 @@
 <!DOCTYPE html>
-<html lang="my">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="utf-8" />
-    <title>Myanmar Kitchen — ဟင်းချက်နည်း မုန့် လဘက်ရည် သင်ပေးမှု</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>My Kitch — Myanmar Everyday Cooking Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Cook Myanmar rice, curries, noodles, snacks, tea & coffee step-by-step. Simple, modern, mobile-friendly recipe hub."
+    />
+    <meta name="theme-color" content="#f97316" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg" />
+    <link rel="icon" type="image/png" href="/icons/favicon.png" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
-    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <script type="module" src="/firebase.js"></script>
-    <script type="module" src="/app.js" defer></script>
+
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <header class="topbar">
       <div class="brand">
-        <img src="images/icons/icon-192.png" alt="logo" />
-        <div>
-          <h1>Myanmar Kitchen</h1>
-          <p>မြန်မာအစားအစာ သင်ကြားမှု App</p>
+        <div class="brand-icon">
+          <i class="ri-restaurant-line"></i>
+        </div>
+        <div class="brand-text">
+          <div class="brand-title">My Kitch</div>
+          <div class="brand-sub">Myanmar Everyday Cooking Hub</div>
         </div>
       </div>
+      <nav class="top-links">
+        <a href="#daily" class="nav-link">Daily Meals</a>
+        <a href="#snacks" class="nav-link">Snacks</a>
+        <a href="#drinks" class="nav-link">Tea & Coffee</a>
+        <a href="#basics" class="nav-link">Basics</a>
+      </nav>
     </header>
 
-    <main class="layout">
-      <section class="search">
-        <input
-          id="searchBox"
-          type="text"
-          placeholder="ဟင်းနည်း၊ မုန့်နည်း၊ လဘက်ရည်နည်း ရှာရန်..."
-        />
-        <button id="btnSearch"><i class="ri-search-line"></i></button>
+    <main class="page">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Cook like home, anywhere.</h1>
+          <p>
+            Simple, visual, Myanmar-style recipes for rice, curries, noodles,
+            mohinga, snacks, milk tea, and coffee — written so that
+            <strong>students, workers, families, and beginners</strong> can all
+            follow.
+          </p>
+          <ul class="hero-points">
+            <li>
+              <i class="ri-check-line"></i> Step-by-step, short instructions
+              (မြန်မာ + English mix)
+            </li>
+            <li>
+              <i class="ri-check-line"></i> Everyday menu planner & difficulty
+              levels
+            </li>
+            <li>
+              <i class="ri-check-line"></i> Offline-friendly: no heavy video, no
+              paywall
+            </li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <div class="hero-card">
+            <div class="hero-label">Today Ideas</div>
+            <div id="heroToday" class="hero-today"></div>
+            <div class="hero-footnote">
+              Tap a card below to see full recipe.
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section id="recipeGrid" class="grid"></section>
+      <!-- Controls -->
+      <section class="controls">
+        <div class="search-wrap">
+          <i class="ri-search-line"></i>
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Search: mohinga, curry, noodle, tea, coffee, egg..."
+            autocomplete="off"
+          />
+        </div>
+        <div class="filters">
+          <select id="filterCategory">
+            <option value="">All categories</option>
+            <option value="daily">Daily Rice & Curries</option>
+            <option value="noodle">Noodles</option>
+            <option value="snack">Snacks & Street Food</option>
+            <option value="drink">Tea & Coffee</option>
+            <option value="onepot">One-Pot / Hostel</option>
+            <option value="basic">Basics & Sauces</option>
+          </select>
+          <select id="filterLevel">
+            <option value="">All levels</option>
+            <option value="easy">Super Easy</option>
+            <option value="medium">Normal</option>
+            <option value="hard">For fun (advanced)</option>
+          </select>
+          <select id="filterTime">
+            <option value="">Any time</option>
+            <option value="15">≤ 15 min</option>
+            <option value="30">≤ 30 min</option>
+            <option value="60">≤ 60 min</option>
+          </select>
+        </div>
+      </section>
+
+      <!-- Recipe grid -->
+      <section id="recipesGrid" class="grid"></section>
+
+      <!-- Sections anchors for smooth scroll -->
+      <div id="daily"></div>
+      <div id="snacks"></div>
+      <div id="drinks"></div>
+      <div id="basics"></div>
     </main>
 
-    <footer>
-      <p>© 2025 Myanmar Kitchen | Community Cooking Hub</p>
+    <!-- Modal -->
+    <div id="recipeModal" class="modal hidden">
+      <div class="modal-backdrop"></div>
+      <div class="modal-dialog">
+        <button id="modalClose" class="modal-close" aria-label="Close">
+          <i class="ri-close-line"></i>
+        </button>
+        <div id="modalContent"></div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div>My Kitch — Free, community-style Myanmar cooking guide.</div>
+      <div class="muted">
+        No login. No tracking. Host on Firebase free-tier. Data lives in this
+        app.
+      </div>
     </footer>
+
+    <script src="/app.js"></script>
   </body>
 </html>
