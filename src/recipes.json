@@ -1,0 +1,827 @@
+[
+  {
+    "id": "egg-fried-rice",
+    "name": "Everyday Egg Fried Rice",
+    "nameMy": "လွယ်လွယ်ကူကူ ငန်းသက်ကြက်ဥ ထမင်းကြော်",
+    "description": "One-pan leftover rice + egg + aromatics. Perfect for hostel / office.",
+    "descriptionMy": "အိမ်ထောင်အသစ်၊ hostel, officeအတွက် ကြာယာမရှို့ တစ်ပန်းကန်ချက်နည်း။",
+    "ingredients": [
+      "1 plate of leftover rice",
+      "1–2 eggs",
+      "Onion, garlic, spring onion",
+      "Oil, salt, pepper, soy sauce (optional)"
+    ],
+    "ingredientsMy": [
+      "အိုထမင်း ၁ ပန်းကန်",
+      "ကြက်ဥ ၁ လုံး (သို့) ၂ လုံး",
+      "ကြက်သွန်နီ၊ ကြက်သွန်ဖြူ၊ နတ်သမီးမြစ်",
+      "ဆီ၊ ဆား၊ မြ များ၊ Soy sauce (လိုသလို)"
+    ],
+    "steps": [
+      "Heat a little oil, sauté onion & garlic until fragrant.",
+      "Add eggs and scramble gently.",
+      "Add rice, season with salt and soy sauce. Fry until hot and slightly golden.",
+      "Finish with chopped spring onion and serve."
+    ],
+    "stepsMy": [
+      "ပန်ထဲ ဆီနည်းနည်းထည့်ပြီး ကြက်သွန်နီ၊ ကြက်သွန်ဖြူ အနံ့လာအောင်ဖုတ်ပါ။",
+      "အဲဂ်ထည့်ပြီး scramble လုပ်ပါ (မအကြမ်းအကျမဖြစ်အောင်).",
+      "ထမင်းထည့်ပြီး ဆားအနည်းငယ်၊ soy sauce နည်းနည်းထည့်ကာ ရွှေရောင်လေးရအောင်ကြော်ပါ။",
+      "နတ်သမီးမြစ် ဖြူးပြီးပင့်၊ ထမင်းအပြည့်ဝအစားရပါပြီ။"
+    ],
+    "category": "rice",
+    "tags": [
+      "rice",
+      "egg",
+      "hostel",
+      "quick"
+    ],
+    "region": "Myanmar",
+    "difficulty": "easy",
+    "cookTime": 15,
+    "servings": 1,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "quick-mohinga",
+    "name": "Quick Mohinga (Shortcut)",
+    "nameMy": "လွယ်ကူ မြန်မြန် မုန့်ဟင်းခါး",
+    "description": "Use mohinga paste + toppings to get close to classic taste fast.",
+    "descriptionMy": "Paste သုံးပြီး အိမ်မှာ လျင်မြန်ကာ အနီးစပ်ဆုံးအရသာရအောင်လုပ်နည်း。",
+    "ingredients": [
+      "Mohinga paste",
+      "Rice noodles",
+      "Onion, garlic, lemongrass",
+      "Boiled egg, coriander, lime"
+    ],
+    "ingredientsMy": [
+      "မုန့်ဟင်းခါး paste",
+      "အကြမ်းဆန် မုန့်ဟင်းခါးခရမ်းပေါင်း",
+      "ကြက်သွန်နီ၊ ကြက်သွန်ဖြူ၊ နံနံဖြူ",
+      "ကြက်ဥပြုတ်၊ နံနံပင်၊ ထောပတ်သီး"
+    ],
+    "steps": [
+      "Cook the mohinga paste with water as per package.",
+      "Fry onion, garlic, lemongrass; stir into the broth.",
+      "Boil noodles, place in bowl, pour broth over.",
+      "Top with egg, coriander, lime and enjoy."
+    ],
+    "stepsMy": [
+      "pack instruction အတိုင်း paste + ရေ နဲ့ချက်ပါ。",
+      "ကြက်သွန်နီ၊ ကြက်သွန်ဖြူ၊ နံနံဖြူ နည်းနည်းဖုတ်ပြီး ထည့်ပေးပါ。",
+      "ရည်ရလာပြီးရင် noodle ပေါင်းထည့် serve လိုက်ပါ。",
+      "အပေါ်မှာ ကြက်ဥပြုတ်၊ နံနံပင်၊ ထောပတ်သီး ဖြူးပါ။"
+    ],
+    "category": "noodle",
+    "tags": [
+      "mohinga",
+      "noodle",
+      "soup"
+    ],
+    "region": "Myanmar",
+    "difficulty": "medium",
+    "cookTime": 25,
+    "servings": 2,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "milk-tea",
+    "name": "Myanmar Milk Tea (Easy Ratio)",
+    "nameMy": "မြန်မာ လက်ဖက်ရည်နို့ (အလွယ်ဗားရှင်း)",
+    "description": "Cafe-style taste using simple 3:1:1 ratio.",
+    "descriptionMy": "လက်ဖက်ရည်ဆိုင်အရသာနီးစပ်အောင် 3:1:1 Ratio နဲ့ လုပ်ပေးထားပါတယ်。",
+    "ingredients": [
+      "Strong black tea",
+      "Sweetened condensed milk",
+      "Evaporated or fresh milk"
+    ],
+    "ingredientsMy": [
+      "ခန့်သတ် အစက်ကြီး လက်ဖက်ရည်",
+      "Condensed milk",
+      "Evaporated milk သို့မဟုတ် fresh milk"
+    ],
+    "steps": [
+      "Brew strong black tea.",
+      "Add 1 part condensed milk + 1 part milk to glass.",
+      "Pour 3 parts hot tea, stir well.",
+      "Adjust sweetness and serve."
+    ],
+    "stepsMy": [
+      "လက်ဖက်ရည်ကို အစက်ကြီးနီရောင်ရအောင် ပြုတ်ပါ。",
+      "ခွက်ထဲတွင် condensed milk + milk ထည့်ပါ。",
+      "လက်ဖက်ရည် ၃ လုပျမှန် ratio နဲ့ ထည့်ကာ ရောပါ。",
+      "ချိုမှုန့်ညှိ၊ အရသာပြည့်ဝရင် serve လိုက်ပါ။"
+    ],
+    "category": "drink",
+    "tags": [
+      "tea",
+      "drink"
+    ],
+    "region": "Myanmar",
+    "difficulty": "easy",
+    "cookTime": 5,
+    "servings": 1,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "shan-noodle",
+    "name": "Shan Noodles (Home Style)",
+    "nameMy": "ရှမ်းခေါက်ဆွဲ (အိမ်တွင်းဗားရှင်း)",
+    "description": "Simple tomato-minced meat base for cozy Shan noodles.",
+    "descriptionMy": "လွယ်ကူတဲ့ minced meat + ခရမ်းချဉ်သီးနဲ့ ရှမ်းခေါက်ဆွဲအရသာ。",
+    "ingredients": [
+      "Rice noodles",
+      "Chicken or pork mince",
+      "Tomato, garlic, shallot",
+      "Salt, soy sauce, chili oil"
+    ],
+    "ingredientsMy": [
+      "Rice noodle",
+      "ကြက်သို့မဟုတ် ဝက် minced",
+      "ခရမ်းချဉ်သီး၊ ကြက်သွန်နီ၊ ကြက်သွန်ဖြူ",
+      "ဆား၊ soy sauce၊ ခရမ်းမြီးမောင်းဆီ"
+    ],
+    "steps": [
+      "Fry garlic, shallot, and mince.",
+      "Add tomato and simmer to a thick sauce.",
+      "Serve over rice noodles with chili oil and peanuts.",
+      "Top with coriander and enjoy."
+    ],
+    "stepsMy": [
+      "ကြက်သွန်နီ၊ ကြက်သွန်ဖြူနဲ့ mince ကို ဖုတ်ပါ。",
+      "ခရမ်းချဉ်သီးထည့်၊ ရည်နည်းနည်းကျန်အောင် ချက်ပါ。",
+      "noodle ပေါင်းပြီး ပန်းကန်ထဲ၊ meat sauce + chili oil ထည့်ပါ。",
+      "ပဲအစေ့၊ နံနံရောပြီး စားပါ။"
+    ],
+    "category": "noodle",
+    "tags": [
+      "shan",
+      "lunch",
+      "regional"
+    ],
+    "region": "Myanmar",
+    "difficulty": "medium",
+    "cookTime": 30,
+    "servings": 2,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "laphet-thoke",
+    "name": "Laphet Thoke (Tea Leaf Salad)",
+    "nameMy": "လက်ဖက်သုပ် (အလွယ် လူနေရ)",
+    "description": "Balanced tea-leaf salad with nuts & veggies.",
+    "descriptionMy": "အိမ်မှာရှိသလောက်နဲ့ အချိုးညှိရင်း သုံးစွဲလို့ရမယ့် လက်ဖက်သုပ်。",
+    "ingredients": [
+      "Pickled tea leaves",
+      "Crispy beans, nuts, sesame",
+      "Tomato, cabbage",
+      "Lime, chili"
+    ],
+    "ingredientsMy": [
+      "လက်ဖက်",
+      "ဖုတ်ထား한 ပဲ၊ နေနွေးဆီ",
+      "ခရမ်းချဉ်သီး၊ အာလူးသီး၊ ကော်လဖလာ",
+      "သံပုရာရည်၊ မုန်လာဥနီ၊ မဆီလူး (လိုသလို)"
+    ],
+    "steps": [
+      "Mix tea leaves with oil until glossy.",
+      "Add nuts, seeds, chopped tomato & cabbage.",
+      "Season with lime and salt.",
+      "Serve as a sharing salad."
+    ],
+    "stepsMy": [
+      "လက်ဖက်ကို ဆီနည်းနည်းနှင့်ရော၍ ရွှေပိုမကျပါစေ。",
+      "အသီးအရွက်များ၊ ပဲကင်များနဲ့ အတူရောပါ。",
+      "သံပုရာရည်နည်းနည်းဖိထည့်၊ ဆားတို့နှင့်အရသာညှိပါ。",
+      "မိသားစုနဲ့ share လို့ရသော snack။"
+    ],
+    "category": "snack",
+    "tags": [
+      "salad",
+      "laphet"
+    ],
+    "region": "Myanmar",
+    "difficulty": "easy",
+    "cookTime": 10,
+    "servings": 2,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "garlic-oil",
+    "name": "Garlic Oil & Chili Oil (Base)",
+    "nameMy": "Garlic Oil / Chili Oil (အခြေခံ)",
+    "description": "Make once, use all week for noodles, rice & salads.",
+    "descriptionMy": "တစ်ခါလုပ် တစ်ပတ်တောင် Noodle, Rice, Salad တွေအတွက် သုံးလို့ရမယ့် အခြေခံ။",
+    "ingredients": [
+      "Neutral oil",
+      "Lots of garlic",
+      "Chili flakes (for chili oil)",
+      "Salt"
+    ],
+    "ingredientsMy": [
+      "ဆီ (neutral)",
+      "ကြက်သွန်ဖြူများ",
+      "ခရမ်းမြီးမောင်းအနီ (chili flakes)",
+      "ဆား နည်းနည်း"
+    ],
+    "steps": [
+      "Add oil & sliced garlic to a cold pan; heat slowly.",
+      "Once golden, remove garlic (store).",
+      "For chili oil, pour hot oil over chili flakes.",
+      "Store and use on noodles, rice, salads."
+    ],
+    "stepsMy": [
+      "အေးအေး Pan ထဲ ဆီ + ကြက်သွန်ဖြူထည့်၊ နိမ့်မီးနဲ့သဖြင့်ကင်ပါ。",
+      "သရေခါးရောင်ရောက်ရင်ထုတ်ထား၊ မလွန်စေ。",
+      "Chili oil လုပ်မယ်ဆိုရင် ပူဆီကို ခရမ်းမြီးမောင်းထဲထည့်ပါ。",
+      "ပုံးလေးထဲထားပြီး မှန်မလုပ်ငန်းအတွက် အသုံးပြုပါ။"
+    ],
+    "category": "basic",
+    "tags": [
+      "basic",
+      "prep"
+    ],
+    "region": "Myanmar",
+    "difficulty": "easy",
+    "cookTime": 20,
+    "servings": 1,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "shrimp-soup",
+    "name": "Shrimp Soup",
+    "nameMy": "ပုစွန်ဟင်းချို",
+    "description": "Simple shrimp tomato soup.",
+    "descriptionMy": "ပုစွန်နဲ့ ခရမ်းချဉ်သီးပေါင်း အလွယ်ဟင်းချို။",
+    "ingredients": [
+      "Shrimp",
+      "Tomato",
+      "Onion",
+      "Coriander"
+    ],
+    "ingredientsMy": [
+      "ပုစွန်",
+      "ခရမ်းချဉ်သီး",
+      "ကြက်သွန်နီ",
+      "နံနံပင်"
+    ],
+    "steps": [
+      "Clean shrimp.",
+      "Boil onion and tomato in water.",
+      "Add shrimp and simmer, then top with coriander."
+    ],
+    "stepsMy": [
+      "ပုစွန်ကိုဆေးပြီးသန့်ပါ။",
+      "ကြက်သွန်နီနဲ့ခရမ်းချဉ်သီးချက်ပါ။",
+      "ပုစွန်ထည့်ပြီးအနည်းငယ်ချက်ပြီးနံနံပင်ဖြူးပါ။"
+    ],
+    "category": "rice",
+    "tags": [],
+    "region": "Myanmar",
+    "difficulty": "medium",
+    "cookTime": 25,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "mont-hin-khar",
+    "name": "Mohinga",
+    "nameMy": "မုန့်ဟင်းခါး",
+    "description": "Iconic rice noodle fish soup, loved as Myanmar's national breakfast.",
+    "descriptionMy": "မြန်မာ့အလွှာနည်းလမ်းတိုင်းနဲ့တွေ့ရသော နံနက်စာမျိုးစုံထဲက နိုင်ငံတစ်ဝှမ်းလူကြိုက်စည်တဲ့ ဟင်းချိုခေါက်ဆွဲ။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "noodle",
+    "tags": [
+      "national",
+      "breakfast",
+      "noodle",
+      "soup"
+    ],
+    "region": "Nationwide",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "shan-noodles",
+    "name": "Shan Noodles",
+    "nameMy": "ရှမ်းခေါက်ဆွဲ",
+    "description": "Soft noodles with rich Shan-style toppings and aromatic oil.",
+    "descriptionMy": "ရှမ်းရိုးရာ ပဲဆီ၊ ကြက်သား/ဝက်သားနဲ့ ပူပူနွေးနွေး အရသာပြည့်ခေါက်ဆွဲ။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "noodle",
+    "tags": [
+      "shan",
+      "noodle",
+      "street-food"
+    ],
+    "region": "Shan",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "mont-ti",
+    "name": "Mont Ti (Rice Vermicelli)",
+    "nameMy": "မုန့်တီ",
+    "description": "Mandalay-style rice vermicelli served with light savory broth.",
+    "descriptionMy": "မန္တလေးဧရိယာအထူး rice vermicelli ဟင်းရည်နဲ့ ပေါင်းစပ်စားသောက်ရတဲ့ နံနက်စာ။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "noodle",
+    "tags": [
+      "breakfast",
+      "noodle"
+    ],
+    "region": "Mandalay",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "mont-lone-yay-paw",
+    "name": "Mont Lone Yay Paw",
+    "nameMy": "မုန့်လုံးရေပေါ်",
+    "description": "Glutinous rice balls with palm sugar filling, floating in hot water.",
+    "descriptionMy": "သကြားလုံးလျှို့ဝှက်ထားတဲ့ ကောက်ညှင်းလုံးတွေကို ရေနွေးထဲသောက်ပြီး သကြားသစ်ထုံးနဲ့စားသောက်ကြတဲ့ သင်္ကြန်မုန့်။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "dessert",
+    "tags": [
+      "dessert",
+      "thingyan",
+      "festival"
+    ],
+    "region": "Nationwide",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "mont-hsin-paung",
+    "name": "Rice / Milk Porridge",
+    "nameMy": "ဆန်ပြုတ် / နို့ဆန်ပြုတ်",
+    "description": "Comforting breakfast porridge, simple and filling.",
+    "descriptionMy": "နံနက်စောစော ပူပူနွေးနွေးစားသောက်ရတဲ့ အလွယ်တကူချက်လို့ရတဲ့ အာဟာရပြည့် ပေါရိချ်။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "rice",
+    "tags": [
+      "breakfast",
+      "simple",
+      "kids"
+    ],
+    "region": "Nationwide",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "kauk-nyin-pauk",
+    "name": "Steamed Sticky Rice",
+    "nameMy": "ကောက်ညှင်းပေါင်း",
+    "description": "Fragrant steamed glutinous rice often served with tea.",
+    "descriptionMy": "လက်ဖက်ရည်နဲ့ အရမ်းလိုက်ဖက်တဲ့ ကောက်ညှင်းသင်းနံ့မုန့်နံနက်စာ။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "rice",
+    "tags": [
+      "traditional",
+      "breakfast",
+      "snack"
+    ],
+    "region": "Delta",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "kauk-nyin-paung-htoat",
+    "name": "Banana Leaf Sticky Rice",
+    "nameMy": "ကောက်ညှင်းထုပ်",
+    "description": "Sticky rice wrapped in banana leaf with sweet or bean filling.",
+    "descriptionMy": "ငှက်ပျောအုပ်ထုပ်ထားတဲ့ ကောက်ညှင်း၊ ပဲမုန့် သို့မဟုတ်သကြားနဲ့အပြည့်သိပ်လှုပ်ထားတာ။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "snack",
+    "tags": [
+      "street-food",
+      "snack",
+      "festival"
+    ],
+    "region": "Nationwide",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "mont-gyi",
+    "name": "Mont Kya Kyi",
+    "nameMy": "မုန့်ကြာစိ",
+    "description": "Soft pandan-coconut layered dessert.",
+    "descriptionMy": "အုန်းနို့နဲ့ ဆန်ဖတ်သင်းနံ့ထည့်ပြီး စိမ်းလန်းနူးညံ့တဲ့ ချိုချင်ရည်မုန့်။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "dessert",
+    "tags": [
+      "dessert",
+      "coconut"
+    ],
+    "region": "Nationwide",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "mont-hinn-khar-rakhine",
+    "name": "Rakhine Mohinga",
+    "nameMy": "ရခိုင်မုန့်ဟင်းခါး",
+    "description": "Spicier, lighter fish noodle soup in Rakhine style.",
+    "descriptionMy": "ငါးအရသာပိုတင်းမြပြီး လက်ဖက်ရည်ဆိုင်တွေမှာလည်းရတွေ့နိုင်တဲ့ ရခိုင်စတိုင်နံနက်စာ။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "noodle",
+    "tags": [
+      "rakhine",
+      "noodle",
+      "soup"
+    ],
+    "region": "Rakhine",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "e-kya-kway",
+    "name": "E Kyar Kway (Fried Dough)",
+    "nameMy": "အီကြာကွေး",
+    "description": "Crispy fried dough sticks, perfect with tea or porridge.",
+    "descriptionMy": "လက်ဖက်ရည်၊ နို့ကော်ဖီ၊ ဆန်ပြုတ်နဲ့လိုက်ဖက်တဲ့ မြန်မာရိုးရာကြော်မုန့်။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "snack",
+    "tags": [
+      "breakfast",
+      "snack"
+    ],
+    "region": "Nationwide",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "mont-latt-thar",
+    "name": "Crispy Twisted Fritters",
+    "nameMy": "မုန့်လက်ကောက် / လက်ဆောင်း",
+    "description": "Crispy twisted snacks often served with tea.",
+    "descriptionMy": "လက်ကောက်ပုံသဏ္ဍာန်နဲ့ ကြေကာလှ crispy ဖြစ်တဲ့ လက်ဖက်ရည်ဆိုင်မုန့်။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "dessert",
+    "tags": [
+      "snack",
+      "tea-shop"
+    ],
+    "region": "Nationwide",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "mont-pyay-kyaw",
+    "name": "Fried Beans & Fritters",
+    "nameMy": "ဗယာကြော် / ပဲကြော်",
+    "description": "Assorted Myanmar-style fritters popular as street snacks.",
+    "descriptionMy": "လမ်းဘေးလက်ဖက်ရည်ဆိုင်တွေမှာ တွေ့ရသော ပဲ၊ ဝက်သား၊ အရိုးအသားကြော်စုံလင် platter.",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "snack",
+    "tags": [
+      "snack",
+      "street-food"
+    ],
+    "region": "Nationwide",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "pathein-halwa",
+    "name": "Pathein Halwa",
+    "nameMy": "ပုသိမ်ဟလဝါ",
+    "description": "Rich, sticky Pathein-style halwa dessert.",
+    "descriptionMy": "အတင်းဆီသင်းနံ့၊ လိမ္မော်သီးနို့လေးနဲ့ ပုသိမ်မြို့ရိုးရာချိုကျင်မုန့်။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "dessert",
+    "tags": [
+      "dessert",
+      "regional"
+    ],
+    "region": "Ayeyarwady",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "shan-tofu-thoke",
+    "name": "Shan Tofu Salad",
+    "nameMy": "ရှမ်းတိုဟူးသုပ်",
+    "description": "Soft chickpea tofu salad with chili oil and herbs.",
+    "descriptionMy": "ပဲမဟုတ်တဲ့ ရှမ်းတိုဟူးနဲ့ ထုပ်ပြုတ်ပြီး နွေးနွေးအေးအေး သုပ်စားရမည့် ခံစားမှုထူးခြား။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "salad",
+    "tags": [
+      "shan",
+      "salad",
+      "vegetarian"
+    ],
+    "region": "Shan",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "nga-pi-ye",
+    "name": "Nga Pi Yay",
+    "nameMy": "ငါးပိရည်",
+    "description": "Fish paste dip served with fresh and boiled vegetables.",
+    "descriptionMy": "တန့်ဆိပ်ကြီး၊ ဧရာဝတီဒေသထူးခြားတဲ့ ငါးပိရည်နဲ့ သုံးဆိုင်သက်သက်လျော့ဟင်းသုပ်များ။",
+    "ingredients": [],
+    "ingredientsMy": [],
+    "steps": [],
+    "stepsMy": [],
+    "category": "basic",
+    "tags": [
+      "traditional",
+      "dip",
+      "home-style"
+    ],
+    "region": "Delta",
+    "difficulty": "easy",
+    "cookTime": 0,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "yangon-mohinga",
+    "name": "Yangon Mohinga",
+    "nameMy": "ရန္ကုန္ မုန့်ဟင်းခါး",
+    "description": "Myanmar's national breakfast soup, enjoyed nationwide.",
+    "descriptionMy": "မြန်မာ့အမျိုးအစားတွင် အနှစ်အပါဆုံးအစာဖြစ်ပြီး နံနက်စာအနေနဲ့ တိုင်းပြည်အနှံ့စားကြသည်။",
+    "ingredients": [
+      "Rice noodle",
+      "Fish broth",
+      "Onion",
+      "Lemongrass"
+    ],
+    "ingredientsMy": [
+      "မုန့်ဟင်းခါးပေါင်မုန့်",
+      "ငါးမွှေးတယ်",
+      "ကြက်သွန်နီ",
+      "နံနံပင်"
+    ],
+    "steps": [
+      "Boil fish broth.",
+      "Fry onion & lemongrass.",
+      "Combine with noodle and serve."
+    ],
+    "stepsMy": [
+      "ငါးမွှေးတယ်ကို အရည်ချက်ပါ။",
+      "ကြက်သွန်နီနဲ့ နံနံပင်ကြော်ပါ။",
+      "အရည်ထဲထည့်ပြီး မုန့်နဲ့အတူသောက်ပါ။"
+    ],
+    "category": "noodle",
+    "tags": [],
+    "region": "Yangon",
+    "difficulty": "medium",
+    "cookTime": 40,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  },
+  {
+    "id": "chin-pork-bamboo",
+    "name": "Chin-style Pork with Bamboo Shoots",
+    "nameMy": "ချင်းသား ဝက်သား သံပုရာတောင့်ဟင်း",
+    "description": "A homestyle bamboo shoot pork curry from the Chin hills.",
+    "descriptionMy": "ချင်းတိုင်းရင်းသားအမျိုးသားတို့ သုံးသပ်ကြတဲ့ ထင်းအိမ်အနံ့ရှိတဲ့ဟင်း။",
+    "ingredients": [
+      "Pork",
+      "Bamboo shoots",
+      "Onion",
+      "Lemongrass"
+    ],
+    "ingredientsMy": [
+      "ဝက်သား",
+      "သံပုရာတောင့်",
+      "ကြက်သွန်နီ",
+      "နံနံပင်"
+    ],
+    "steps": [
+      "Boil pork.",
+      "Add bamboo shoots.",
+      "Simmer until tender."
+    ],
+    "stepsMy": [
+      "ဝက်သားကိုချက်ပါ။",
+      "တောင့်ထည့်ပါ။",
+      "ရေခဲနည်းအောင်ချက်ပါ။"
+    ],
+    "category": "curry",
+    "tags": [],
+    "region": "Chin State",
+    "difficulty": "medium",
+    "cookTime": 60,
+    "servings": 0,
+    "photo": "",
+    "videos": [],
+    "author": "Myanmar Kitchen",
+    "authorId": "editorial",
+    "version": 1,
+    "status": "published",
+    "legacy": true
+  }
+]

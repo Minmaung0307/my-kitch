@@ -1,0 +1,7 @@
+import {chromium} from 'playwright';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
+const {support}=JSON.parse(readFileSync(new URL('../public/app-config.json',import.meta.url)));
+const browser=await chromium.launch({executablePath:process.env.CHROME_PATH||'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});
+const context=await browser.newContext();await context.route('https://buy.stripe.com/**',route=>route.fulfill({contentType:'text/html',body:'<h1>Payment link navigation test</h1>'}));
+const page=await context.newPage();await page.route('**/app-config.json',route=>route.fulfill({json:{support}}));await page.goto(process.env.TEST_URL||'http://localhost:5173');await page.locator('.recipe-card').first().waitFor();
+for(const [key,url] of Object.entries(support)){const link=page.locator(`[data-support-link=${key}]`);assert.equal(await link.getAttribute('href'),url);const pending=page.waitForEvent('popup');await link.click();const popup=await pending;await popup.waitForLoadState();assert.equal(popup.url(),url);await popup.close();}
+await page.setViewportSize({width:390,height:844});await page.locator('.card-open').first().click();await page.locator('dialog[open]').waitFor();assert.ok(await page.locator('#dialog-title').innerText());await page.keyboard.press('Escape');console.log('PASS: four exact Stripe destinations open separately; mobile card arrow opens recipe. No payment made.');await browser.close();

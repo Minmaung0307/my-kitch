@@ -1,0 +1,8 @@
+rules_version = '2';
+service firebase.storage {
+ match /b/{bucket}/o {
+  // Uploads pass through the authenticated function and server image decoder.
+  // Recipe images are shared by unguessable download-token URLs.
+  match /{path=**} { allow read, write: if false; }
+ }
+}

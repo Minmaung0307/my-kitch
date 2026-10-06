@@ -1,0 +1,16 @@
+{
+  "firebase": {
+    "apiKey": "AIzaSyAdPyYmmvRlPadP9MmAkq3t2QCFUAiFvag",
+    "authDomain": "my-kitch.firebaseapp.com",
+    "projectId": "my-kitch",
+    "appId": "1:91210543742:web:39051c7fffed8c0f8d9e2f",
+    "messagingSenderId": "91210543742"
+  },
+  "functionsRegion": "us-central1",
+  "support": {
+    "coffee": "https://buy.stripe.com/5kQ6oHdM85To0WR3xg1B607",
+    "burger": "https://buy.stripe.com/14AcN57nKgy2cFzd7Q1B606",
+    "big_meal": "https://buy.stripe.com/5kQ28r5fCa9E8pj9VE1B601",
+    "charity": "https://buy.stripe.com/9B600j7nK6Xs20V2tc1B60r"
+  }
+}

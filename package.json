@@ -1,0 +1,24 @@
+{
+  "name": "myanmar-kitchen",
+  "version": "2.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host localhost",
+    "build": "vite build",
+    "preview": "vite preview --host localhost",
+    "test": "node --test tests/*.test.js",
+    "deploy:repair": "npm run build && node scripts/deploy-repair.mjs",
+    "diagnose:cloud": "node scripts/cloud-diagnostics.mjs"
+  },
+  "dependencies": {
+    "firebase": "^12.0.0",
+    "heic-to": "^1.6.5",
+    "lucide": "^0.468.0"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^5.0.2",
+    "playwright": "^1.63.0",
+    "vite": "^6.4.1"
+  }
+}

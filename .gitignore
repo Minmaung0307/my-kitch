@@ -1,0 +1,45 @@
+# Dependencies (also applies inside functions/)
+node_modules/
+
+# Generated build and test output
+dist/
+coverage/
+playwright-report/
+test-results/
+.vite/
+*.tsbuildinfo
+
+# Local environment configuration; keep safe setup templates
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Firebase cache, emulator exports and debug logs
+.firebase/
+firebase-export-*/
+emulator-data/
+*-debug.log
+*.log
+
+# Private credentials: never commit service-account keys
+service-account*.json
+serviceAccount*.json
+*-firebase-adminsdk-*.json
+application_default_credentials.json
+*.pem
+*.key
+
+# OS/editor temporary files
+.DS_Store
+._*
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*~
+
+# Keep package-lock.json, firebase.json, .firebaserc, rules,
+# public/app-config.json and .env.example under version control.
+# Firebase web configuration is public; service-account keys are not.
