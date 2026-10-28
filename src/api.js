@@ -10,6 +10,8 @@ export function authMessage(error){
  const messages={
  'auth/operation-not-allowed':'Firebase Console → Authentication → Sign-in method မှာ Google ကို Enable လုပ်ပေးရန် လိုအပ်ပါသည်။',
  'auth/unauthorized-domain':'ဒီဝဘ်ဆိုက် domain ကို Firebase Console → Authentication → Settings → Authorized domains မှာ ထည့်ပေးပါ။ Local run လျှင် localhost နှင့် 127.0.0.1 ကို ထည့်ပါ။',
+ 'auth/disallowed-useragent':'Google login အတွက် ဒီချက်နည်းလင့်ခ်ကို Safari သို့မဟုတ် Chrome မှာ ဖွင့်ပေးပါ။ ChatGPT အတွင်း browser က Google login ကို ခွင့်မပြုနိုင်ပါ။',
+ 'auth/web-storage-unsupported':'ဒီချက်နည်းလင့်ခ်ကို Safari သို့မဟုတ် Chrome မှာ ဖွင့်ပြီး Google ဖြင့် ဝင်ပါ။',
  'auth/popup-blocked':'Browser က login window ကို ပိတ်ထားပါသည်။ ဒီဝဘ်ဆိုက်အတွက် pop-up ခွင့်ပြုပြီး ထပ်နှိပ်ပါ။',
  'auth/popup-closed-by-user':'Google login window ပိတ်သွားပါသည်။ ထပ်နှိပ်ပြီး Google account ရွေးပေးပါ။',
  'auth/cancelled-popup-request':'Google login window ဖွင့်ထားပြီးဖြစ်ပါသည်။ ထို window တွင် ဆက်လုပ်ပါ။',

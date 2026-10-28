@@ -1,3 +1,4 @@
+import {createSubmitRecipe} from './lib/submit.js';
 import {starterRecipes,ensureStarterRecipe} from './lib/catalog.js';
 import {getStorage} from 'firebase-admin/storage';
 import {defineString} from 'firebase-functions/params';
@@ -14,21 +15,7 @@ initializeApp();const db=getFirestore();const now=()=>FieldValue.serverTimestamp
 const nameRef=n=>db.doc(`recipeNames/${createHash('sha256').update(n).digest('hex')}`);
 function requireUser(request){if(!request.auth)throw new HttpsError('unauthenticated','Please sign in.');return request.auth.uid}
 async function valid(input){const custom=typeof input?.category==='string'&&/^cat-[a-f0-9]{24}$/.test(input.category)&&(await db.doc(`categories/${input.category}`).get()).exists;try{return validateRecipe(input||{},custom?[input.category]:[])}catch(e){throw new HttpsError('invalid-argument',e.message)}}
-export const submitRecipe=onCall({invoker:'public'},guarded('submitRecipe',async request=>{
- const uid=requireUser(request),recipe=await valid(request.data?.recipe),targetId=request.data?.targetId||null;
- if(targetId&&(typeof targetId!=='string'||!/^[\w-]{1,200}$/.test(targetId)))throw new HttpsError('invalid-argument','Invalid recipe.');
- // Import an original only when needed; no client-supplied recipe is auto-published.
- const wanted=namesOf(recipe);
- for(const starter of starterRecipes)if(starter.id===targetId||namesOf(starter).some(n=>wanted.includes(n))){const existingId=await ensureStarterRecipe(starter.id);if(starter.id===targetId&&existingId!==targetId)throw new HttpsError('already-exists','မူလချက်နည်းအမည်ကို အသုံးပြုထားသည့် recipe ကို ပြင်ပေးပါ။',{recipeId:existingId});}
- const profile=await db.doc(`users/${uid}`).get();const author=profile.data()?.name||request.auth.token.name||'Home cook';
- const ref=db.collection('requests').doc();
- return db.runTransaction(async tx=>{
-  const target=targetId?await tx.get(db.doc(`recipes/${targetId}`)):null;
-  if(target&&!target.exists)throw new HttpsError('not-found','ပြင်မည့် recipe ကို database ထဲတွင် မတွေ့ပါ။ စာမျက်နှာ refresh လုပ်ပြီး ရှိနေသော recipe ကို ပြန်ရွေးပါ။',{reason:'recipe-not-found'});
-  for(const name of namesOf(recipe)){const existing=await tx.get(nameRef(name));if(existing.exists&&existing.data().recipeId!==targetId)throw new HttpsError('already-exists','A recipe with this exact name already exists. Open it to suggest an edit.',{recipeId:existing.data().recipeId})}
-  tx.create(ref,{type:targetId?'edit':'submission',targetId,baseVersion:target?.data()?.version||0,recipe,authorId:uid,author,status:'pending',note:String(request.data?.note||'').trim().slice(0,2000),createdAt:now()});return {id:ref.id};
- });
-}));
+export const submitRecipe=onCall({invoker:'public'},guarded('submitRecipe',createSubmitRecipe({db,now,nameRef,valid,starterRecipes,ensureStarterRecipe})));
 export const reviewRequest=onCall({invoker:'public'},guarded('reviewRequest',async request=>{
  const uid=requireUser(request);if(!isAdminToken(request.auth.token))throw new HttpsError('permission-denied','Admin access is required.');
  const {id,decision}=request.data||{};if(!/^[\w-]{1,200}$/.test(id||'')||!['approve','reject'].includes(decision))throw new HttpsError('invalid-argument','Invalid review.');
